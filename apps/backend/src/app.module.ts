@@ -5,6 +5,7 @@ import { HealthModule } from './modules/health/health.module';
 import { NotificationsModule } from './modules/notifications/notifications.module';
 import { ReportingModule } from './modules/reporting/reporting.module';
 import { DependencyTrackerModule } from './modules/contracts/dependencies/dependency-tracker.module';
+import { GovernanceModule } from './modules/governance/governance.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { DependencyTrackerModule } from './modules/contracts/dependencies/depend
     NotificationsModule,
     ReportingModule,
     DependencyTrackerModule,
+    GovernanceModule,
   ],
   controllers: [AppController],
 })
